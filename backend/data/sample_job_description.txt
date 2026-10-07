@@ -1,0 +1,19 @@
+Job Title: Software Developer
+Location: Remote / Hybrid
+
+We are seeking a versatile Software Developer to join our engineering team.
+
+Responsibilities:
+- Build and maintain modern web applications with JavaScript and React.
+- Develop scalable backend microservices and REST APIs using Node.js.
+- Implement containerized deployments using Docker and manage cloud infrastructure on AWS.
+- Collaborate on high-level System Design and database optimization.
+- Work with Git version control in an agile sprint lifecycle.
+
+Requirements & Core Skills:
+- Strong proficiency in JavaScript and React frontend ecosystem.
+- Solid experience in Node.js and REST API engineering.
+- Familiarity with containerization using Docker.
+- Experience or knowledge of cloud platforms, specifically AWS.
+- Fundamental understanding of System Design, architecture patterns, and scalability principles.
+

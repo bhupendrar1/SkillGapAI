@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "taxonomy": "SkillGapAI ESCO-aligned Canonical Skill Dataset",
+  "description": "Standardized skill dictionary with aliases for normalization and rule-based learning curriculum.",
+  "skills": [
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "esco_uri": "http://data.europa.eu/esco/skill/javascript-core",
+      "aliases": ["javascript", "js", "ecmascript", "es6", "vanilla js", "modern javascript"],
+      "learning_recommendations": [
+        "Modern ES6+ syntax (arrow functions, destructuring, promises, async/await)",
+        "DOM manipulation and event-driven asynchronous architecture",
+        "Closures, prototypes, and event loop mechanics"
+      ]
+    },
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "esco_uri": "http://data.europa.eu/esco/skill/python-programming",
+      "aliases": ["python", "python3", "python 3", "py"],
+      "learning_recommendations": [
+        "Core Python syntax, list comprehensions, generators, and decorators",
+        "Object-Oriented Programming (OOP) in Python and package management",
+        "Python standard library and popular external packages (NumPy, Requests, FastAPI)"
+      ]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "esco_uri": "http://data.europa.eu/esco/skill/java-programming",
+      "aliases": ["java", "java se", "core java", "java 8", "java 11", "java 17"],
+      "learning_recommendations": [
+        "Core Java syntax, JVM architecture, and garbage collection concepts",
+        "OOP principles, inheritance, interfaces, and collections framework",
+        "Multithreading, concurrency, and Spring Boot framework basics"
+      ]
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "esco_uri": "http://data.europa.eu/esco/skill/cpp-programming",
+      "aliases": ["c++", "cpp", "c plus plus", "c++11", "c++14", "c++17", "c++20"],
+      "learning_recommendations": [
+        "C++ basics, memory management, pointers, and references",
+        "Standard Template Library (STL): vectors, maps, iterators, and algorithms",
+        "Object-Oriented Programming, templates, and RAII idiom"
+      ]
+    },
+    {
+      "name": "React",
+      "category": "Frontend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/react-library",
+      "aliases": ["react", "react.js", "reactjs", "react js"],
+      "learning_recommendations": [
+        "React Component Lifecycle & JSX fundamentals",
+        "State management using hooks (useState, useEffect, useContext, useReducer)",
+        "Component modularity, props drilling prevention, and React Router"
+      ]
+    },
+    {
+      "name": "HTML",
+      "category": "Frontend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/html5",
+      "aliases": ["html", "html5", "semantic html"],
+      "learning_recommendations": [
+        "Semantic HTML5 tags and accessible web standards (WAI-ARIA)",
+        "Forms, input validation, and media elements",
+        "SEO fundamentals and document object structure"
+      ]
+    },
+    {
+      "name": "CSS",
+      "category": "Frontend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/css3",
+      "aliases": ["css", "css3", "cascading style sheets"],
+      "learning_recommendations": [
+        "Box model, flexbox, and CSS grid layout mastery",
+        "Responsive web design using media queries and fluid sizing",
+        "Transitions, keyframe animations, and CSS variables"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "category": "Frontend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/tailwind-css",
+      "aliases": ["tailwind", "tailwind css", "tailwindcss", "tailwind-css"],
+      "learning_recommendations": [
+        "Utility-first styling approach and responsive breakpoint variants",
+        "Tailwind configuration, custom themes, and arbitrary values",
+        "Component design patterns with utility classes and Tailwind plugins"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "category": "Backend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/nodejs-runtime",
+      "aliases": ["node.js", "nodejs", "node js", "node"],
+      "learning_recommendations": [
+        "Node.js runtime architecture, event loop, and non-blocking I/O",
+        "Built-in core modules (fs, path, http, events, streams)",
+        "NPM package lifecycle, modular code structure, and debugging"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "category": "Backend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/expressjs-framework",
+      "aliases": ["express.js", "expressjs", "express js", "express"],
+      "learning_recommendations": [
+        "Building HTTP servers and routing with Express",
+        "Middleware pipeline, request parsing, and error-handling patterns",
+        "Authentication middlewares (JWT) and integration with database drivers"
+      ]
+    },
+    {
+      "name": "REST API",
+      "category": "Backend Development",
+      "esco_uri": "http://data.europa.eu/esco/skill/restful-apis",
+      "aliases": ["rest api", "restful api", "rest apis", "restful apis", "restful web services", "rest", "api design"],
+      "learning_recommendations": [
+        "REST architectural principles: statelessness, standard HTTP methods (GET, POST, PUT, DELETE)",
+        "Proper HTTP status codes, error payloads, and pagination",
+        "API contract definition, OpenAPI/Swagger documentation, and Postman testing"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "esco_uri": "http://data.europa.eu/esco/skill/mongodb-nosql",
+      "aliases": ["mongodb", "mongo db", "mongo", "nosql mongodb"],
+      "learning_recommendations": [
+        "Document database concepts, BSON schema, and CRUD operations",
+        "MongoDB Aggregation pipeline ($match, $group, $lookup)",
+        "Indexing strategies, data modeling, and Mongoose ODM integration"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "esco_uri": "http://data.europa.eu/esco/skill/mysql-rdbms",
+      "aliases": ["mysql", "my sql", "mysql rdbms"],
+      "learning_recommendations": [
+        "Relational schema design, normalization (1NF, 2NF, 3NF), and primary/foreign keys",
+        "Complex SQL queries: JOINs, GROUP BY, subqueries, and views",
+        "ACID transactions, storage engines, and index optimization"
+      ]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "esco_uri": "http://data.europa.eu/esco/skill/sql-query-language",
+      "aliases": ["sql", "structured query language", "relational database", "rdbms", "postgresql", "postgres"],
+      "learning_recommendations": [
+        "Fundamental SQL syntax: SELECT, INSERT, UPDATE, DELETE",
+        "Inner, Left, Right, Full Outer Joins, and aggregate operations",
+        "Database indexing, query execution plans, and transaction isolation levels"
+      ]
+    },
+    {
+      "name": "Git",
+      "category": "DevOps & Tools",
+      "esco_uri": "http://data.europa.eu/esco/skill/git-version-control",
+      "aliases": ["git", "git version control", "git scm"],
+      "learning_recommendations": [
+        "Git repository workflows: init, stage, commit, branch, merge, and rebase",
+        "Resolving merge conflicts and inspecting logs with git log / diff",
+        "Git branching strategies (Git Flow, trunk-based development)"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "category": "DevOps & Tools",
+      "esco_uri": "http://data.europa.eu/esco/skill/github-collaboration",
+      "aliases": ["github", "gh", "git hub"],
+      "learning_recommendations": [
+        "Remote repository management, pull requests, and peer code reviews",
+        "GitHub Actions basics for Continuous Integration (CI) automation",
+        "Issue tracking, milestone planning, and open-source project management"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Cloud",
+      "esco_uri": "http://data.europa.eu/esco/skill/docker-containerization",
+      "aliases": ["docker", "docker containers", "docker container", "dockerization", "containerization"],
+      "learning_recommendations": [
+        "Docker fundamentals: differences between virtualization and containers",
+        "Managing images and containers (pull, run, stop, inspect, volumes, networking)",
+        "Writing clean Dockerfiles with multi-stage builds and Docker Compose setup"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "DevOps & Cloud",
+      "esco_uri": "http://data.europa.eu/esco/skill/amazon-web-services",
+      "aliases": ["aws", "amazon web services", "aws cloud"],
+      "learning_recommendations": [
+        "Cloud computing fundamentals, regions, and availability zones",
+        "Core AWS services: EC2 (Compute), S3 (Object Storage), IAM (Access Management)",
+        "Serverless introduction with AWS Lambda and API Gateway"
+      ]
+    },
+    {
+      "name": "System Design",
+      "category": "System Architecture",
+      "esco_uri": "http://data.europa.eu/esco/skill/system-architecture-design",
+      "aliases": ["system design", "distributed systems", "system architecture", "software architecture", "scalability design", "high level design"],
+      "learning_recommendations": [
+        "Scalability fundamentals: vertical vs. horizontal scaling and stateless architecture",
+        "Load balancing, caching strategies (Redis/CDN), and database replication/sharding",
+        "CAP theorem, message queues (Kafka/RabbitMQ), and microservices patterns"
+      ]
+    },
+    {
+      "name": "Data Structures",
+      "category": "Computer Science Core",
+      "esco_uri": "http://data.europa.eu/esco/skill/data-structures",
+      "aliases": ["data structures", "dsa", "arrays", "linked lists", "trees", "graphs", "hash tables"],
+      "learning_recommendations": [
+        "Linear data structures: arrays, linked lists, stacks, and queues",
+        "Non-linear structures: binary search trees, heaps, tries, and graphs",
+        "Hash tables, collision handling, and memory trade-offs"
+      ]
+    },
+    {
+      "name": "Algorithms",
+      "category": "Computer Science Core",
+      "esco_uri": "http://data.europa.eu/esco/skill/algorithmic-problem-solving",
+      "aliases": ["algorithms", "algo", "algorithmic analysis", "sorting algorithms", "dynamic programming"],
+      "learning_recommendations": [
+        "Asymptotic time and space complexity analysis (Big-O, Big-Theta notation)",
+        "Searching and sorting algorithms: Binary search, QuickSort, MergeSort",
+        "Algorithm paradigms: Divide and conquer, Greedy methods, Dynamic Programming"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Artificial Intelligence",
+      "esco_uri": "http://data.europa.eu/esco/skill/machine-learning",
+      "aliases": ["machine learning", "ml", "supervised learning", "unsupervised learning"],
+      "learning_recommendations": [
+        "Supervised learning algorithms: Linear regression, Logistic regression, Decision Trees, Random Forests",
+        "Data preprocessing, feature scaling, train-test splitting, and cross-validation",
+        "Evaluation metrics: Accuracy, Precision, Recall, F1-Score, and ROC-AUC curve"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Artificial Intelligence",
+      "esco_uri": "http://data.europa.eu/esco/skill/deep-learning",
+      "aliases": ["deep learning", "dl", "neural networks", "ann", "cnn", "rnn"],
+      "learning_recommendations": [
+        "Neural network fundamentals: Perceptrons, activation functions, backpropagation, and loss functions",
+        "Convolutional Neural Networks (CNN) for image tasks and Recurrent Networks for sequences",
+        "Deep learning frameworks (PyTorch / TensorFlow) and regularization techniques (Dropout, BatchNorm)"
+      ]
+    },
+    {
+      "name": "NLP",
+      "category": "Artificial Intelligence",
+      "esco_uri": "http://data.europa.eu/esco/skill/natural-language-processing",
+      "aliases": ["nlp", "natural language processing", "text mining", "computational linguistics"],
+      "learning_recommendations": [
+        "Text preprocessing: Tokenization, lemmatization, stop-word removal, and regex parsing",
+        "Vector representations: Bag of Words, TF-IDF, Word2Vec, and contextual embeddings",
+        "Transformer architectures, attention mechanism, and BERT / Sentence-Transformers"
+      ]
+    }
+  ]
+}
+
