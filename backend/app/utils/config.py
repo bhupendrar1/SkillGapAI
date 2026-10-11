@@ -1,12 +1,4 @@
-"""
-Configuration and Research Hyperparameters for SkillGapAI.
 
-IMPORTANT RESEARCH NOTE:
-The classification thresholds defined here represent initial baseline prototype
-parameters chosen for research demonstration. They provide a transparent, 
-configurable foundation for upcoming empirical ablation studies and sensitivity 
-analyses. They are NOT claimed as universal ground-truth constants.
-"""
 
 import os
 from pathlib import Path

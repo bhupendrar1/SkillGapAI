@@ -59,44 +59,53 @@ export default function HomePage({ onStartAnalysis }) {
 
       {/* Viva / Mentor Review Summary Card */}
       <section className="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 shadow-sm">
-        <div className="flex items-start gap-4">
-          <div className="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0 border border-blue-400/30">
-            <HelpCircle className="w-5 h-5" />
+        <div className="flex flex-col lg:flex-row gap-6 items-start mb-6">
+          <div className="w-full lg:w-72 shrink-0 overflow-hidden rounded-xl border border-slate-700/80 shadow-md">
+            <img
+              src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80"
+              alt="Viva and Mentor Presentation Guide"
+              className="w-full h-44 lg:h-36 object-cover hover:scale-105 transition-transform duration-300"
+            />
           </div>
-          <div className="space-y-3">
-            <div>
+
+          <div className="flex-1 space-y-2">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0 border border-blue-400/30">
+                <HelpCircle className="w-4 h-4" />
+              </div>
               <span className="text-[11px] font-mono uppercase tracking-wider text-blue-400 font-bold">
                 Viva & Mentor Presentation Guide
               </span>
-              <h3 className="text-lg font-bold text-white tracking-tight mt-0.5">
-                How to Explain the Proposed Research Methodology
-              </h3>
             </div>
-            
+
+            <h3 className="text-xl font-bold text-white tracking-tight">
+              How to Explain the Proposed Research Methodology
+            </h3>
+
             <p className="text-xs text-slate-300 leading-relaxed">
               When explaining this prototype to your viva panel or research mentor, use this concise 7-step rationale:
             </p>
+          </div>
+        </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-300 pt-1">
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">1. Input Ingestion:</span> The user uploads a resume PDF and enters target job requirements.
-              </div>
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">2. Text Extraction:</span> PyMuPDF parses raw text page-by-page from the PDF without loss.
-              </div>
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">3. Skill Normalization:</span> Lexical variants map to canonical representations (e.g., <code className="text-blue-300">React.js</code> &rarr; <code className="text-blue-300">React</code>) aligned with ESCO standards.
-              </div>
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">4. Semantic Matching:</span> <code className="text-indigo-300">all-MiniLM-L6-v2</code> Sentence Transformer maps competencies into dense 384-dimensional vectors; cosine similarity measures contextual relatedness.
-              </div>
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">5. Gap Classification:</span> Baseline research thresholds classify skills into Matched (&ge;0.70), Partial (0.50-0.69), and Missing (&lt;0.50).
-              </div>
-              <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
-                <span className="font-bold text-white">6. Explainable AI & Roadmap:</span> Evidence-backed rationale explains WHY each skill received its classification, followed by a deterministic learning curriculum.
-              </div>
-            </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs text-slate-300 pt-1">
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">1. Input Ingestion:</span> The user uploads a resume PDF and enters target job requirements.
+          </div>
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">2. Text Extraction:</span> PyMuPDF parses raw text page-by-page from the PDF without loss.
+          </div>
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">3. Skill Normalization:</span> Lexical variants map to canonical representations (e.g., <code className="text-blue-300">React.js</code> &rarr; <code className="text-blue-300">React</code>) aligned with ESCO standards.
+          </div>
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">4. Semantic Matching:</span> <code className="text-indigo-300">all-MiniLM-L6-v2</code> Sentence Transformer maps competencies into dense 384-dimensional vectors; cosine similarity measures contextual relatedness.
+          </div>
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">5. Gap Classification:</span> Baseline research thresholds classify skills into Matched (&ge;0.70), Partial (0.50-0.69), and Missing (&lt;0.50).
+          </div>
+          <div className="p-3 rounded-lg bg-slate-800/80 border border-slate-700/60">
+            <span className="font-bold text-white">6. Explainable AI & Roadmap:</span> Evidence-backed rationale explains WHY each skill received its classification, followed by a deterministic learning curriculum.
           </div>
         </div>
       </section>

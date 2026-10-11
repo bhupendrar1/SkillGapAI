@@ -1,20 +1,4 @@
-"""
-Explainability (XAI) and Learning Recommendation Module.
 
-Academic Purpose:
-1. Explainability:
-Provides transparent, deterministic reasoning for every classified skill
-based on detected candidate evidence and calculated cosine similarity scores.
-Addresses the viva core requirement: "Why is this skill matched, partial, or missing?"
-Crucially, all explanations derive directly from verified text evidence without
-hallucinating or fabricating candidate competencies.
-
-2. Learning Recommendations:
-Provides structured, rule-based learning roadmaps for missing and partially matched skills:
-- Missing skills: Assigned HIGH priority
-- Partial skills: Assigned MEDIUM priority
-Topics derive deterministically from the canonical skill taxonomy (`skills.json`).
-"""
 
 from typing import List, Dict, Any, Optional
 from app.ml.skill_normalizer import get_skill_normalizer

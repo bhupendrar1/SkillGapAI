@@ -26,9 +26,6 @@ export default function Navbar({
           <div>
             <div className="flex items-center gap-2">
               <span className="font-bold text-lg text-slate-900 tracking-tight">AI Skill Gap Analyzer</span>
-              <span className="text-[11px] font-medium bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full border border-blue-200/60">
-                Academic Prototype
-              </span>
             </div>
             <p className="text-xs text-slate-500">Explainable AI-Based Candidate & Job Competency Analysis</p>
           </div>

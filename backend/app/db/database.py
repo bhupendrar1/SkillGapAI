@@ -1,8 +1,4 @@
-"""
-Database Layer for SkillGapAI using SQLite.
-Stores Users, Profiles, Analysis History, Payments, and Chat Interactions.
-Automatically seeds default Admin and Student accounts for instant demonstration.
-"""
+
 
 import sqlite3
 import json
